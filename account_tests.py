@@ -55,3 +55,4 @@ if __name__ == '__main__':
     t = DecreaseTestCase()
     t.test_decrease_balance(Decimal('5000'), Decimal('4000'), False)
     t.test_decrease_balance(Decimal('5000'), Decimal('6000'), True)
+    t.test_decrease_balance(Decimal('5000'), Decimal('4999'), True)
